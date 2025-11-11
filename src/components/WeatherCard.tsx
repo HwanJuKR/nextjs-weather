@@ -12,7 +12,7 @@ const WeatherCard = ({ data }: { data: WeatherData | null }) => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-[#74b9ff] to-[#a29bfe] text-white text-center rounded-2xl p-6 mx-auto my-8 shadow-lg transition-transform duration-300 hover:-translate-y-1">
+    <div className="bg-linear-to-br from-[#74b9ff] to-[#a29bfe] text-white text-center rounded-2xl p-6 mx-auto my-8 shadow-lg transition-transform duration-300 hover:-translate-y-1">
       <div className="flex items-center justify-between mb-6 pb-4 border-b border-white/20">
         <h1 className="text-2xl font-bold m-0">
           {data.name}, {data.sys.country}
