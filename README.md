@@ -2,7 +2,7 @@
 
 이 프로젝트는 **Next.js 15**와 **TypeScript**로 제작한 실시간 날씨 정보 위젯입니다.  
 사용자의 현재 위치를 자동으로 감지하여 실시간 날씨 정보를 표시하며,  
-아름다운 그라디언트 UI와 반응형 디자인으로 날씨 정보를 편리하게 확인할 수 있습니다.
+아름다운 그라디언트 UI와 반응형 디자인으로 날씨 정보를 편리하게 확인할 수 있습니다.  
 가벼운 사이드 프로젝트로 만들어보았습니다.
 
 ---
@@ -66,27 +66,27 @@ npm run dev
 
 ```
 nextjs-weather/
-├── src/                        # 소스 코드
-│   ├── app/                    # Next.js App Router
+├── src/                       # 소스 코드
+│   ├── app/                   # Next.js App Router
 │   │   ├── page.tsx           # 메인 페이지
 │   │   ├── layout.tsx         # 레이아웃
 │   │   ├── globals.css        # 전역 스타일
 │   │   └── favicon.ico        # 파비콘
-│   ├── components/             # UI 컴포넌트
+│   ├── components/            # UI 컴포넌트
 │   │   └── WeatherCard.tsx    # 날씨 카드 컴포넌트
-│   ├── hooks/                  # 커스텀 훅
+│   ├── hooks/                 # 커스텀 훅
 │   │   └── useWeather.ts      # 날씨 데이터 훅
-│   └── types/                  # TypeScript 타입 정의
+│   └── types/                 # TypeScript 타입 정의
 │       └── weather.ts         # 날씨 관련 타입
-├── .env.local                  # 환경 변수
-├── .gitignore                  # Git 무시 파일
-├── eslint.config.mjs           # ESLint 설정 파일
-├── next.config.ts              # Next.js 설정 파일
-├── package.json                # 프로젝트 설정 파일
-├── package-lock.json           # 의존성 잠금 파일
-├── postcss.config.mjs          # PostCSS 설정 파일
-├── tsconfig.json               # TypeScript 설정 파일
-└── README.md                   # 프로젝트 설명 파일
+├── .env.local                 # 환경 변수
+├── .gitignore                 # Git 무시 파일
+├── eslint.config.mjs          # ESLint 설정 파일
+├── next.config.ts             # Next.js 설정 파일
+├── package.json               # 프로젝트 설정 파일
+├── package-lock.json          # 의존성 잠금 파일
+├── postcss.config.mjs         # PostCSS 설정 파일
+├── tsconfig.json              # TypeScript 설정 파일
+└── README.md                  # 프로젝트 설명 파일
 ```
 
 ---
